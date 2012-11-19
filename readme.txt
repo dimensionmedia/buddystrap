@@ -9,7 +9,7 @@ Minimalistic BuddyPress Theme Using Twitter Bootstrap
 
 == Description ==
 
-BuddyStrap is not a kinky sex toy. It's a theme for BuddyPress built with Twitter Bootstrap (currently at 2.2.1). This is a side project (literally done on a weekend) that was created at request for those wanting this sort of thing. It is supposed to mimic the default BuddyPress 1.6 theme, and modifies as little as possible. 
+BuddyStrap is not a kinky sex toy. It's a theme for BuddyPress built with Twitter Bootstrap (currently at 2.2.1). This is a side project (literally done on a weekend) that was created at request for those wanting this sort of thing. It is supposed to mimic the default BuddyPress 1.6 theme, and is supposed to modify the theme and things as little as possible. 
 
 This theme is recommended for BuddyPress developers with some measure of experience. Due to the state of the code, I wouldn't recommend this for a development environment. This is primarily to show you what's possible.
 
@@ -23,6 +23,10 @@ This theme is in active development, although as a side project might collect so
 == Options ==
 
 There are no theme options at this time.
+
+== Need a BuddyPress Developer? ==
+
+Drop me a line. That's all i'll say! :)
 
 == Changelog ==
 
