@@ -1,0 +1,511 @@
+/*--------------------------------------------------------------
+This CSS file serves as the "middleman" w/ tweaks, etc.
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+Bootstrap Overrides
+--------------------------------------------------------------*/
+
+img {
+	max-width: none; /* IMPORTANT - this fixes wackiness w/ jcrop when you attempt to upload an avatar and crop it */
+}
+.nav-tabs > .active > a, .nav-tabs > .active > a:hover {
+	border-bottom: 2px solid #fff;
+}
+.badge {
+	line-height: 15px;
+}
+.alert p {
+	margin: 0;
+}
+#item-body input[type="radio"], #item-body  input[type="checkbox"] {
+	margin-top: 0;
+}
+#subnav .input-append input[type="text"] {
+	height: 17px;
+}
+.message-search .input-append .btn {
+	margin-top: 0;
+}
+.input-append label {
+	margin-right: 0;
+}
+.dir-search .input-append input, .dir-search .input-append select, .dir-search .input-append .uneditable-input, .message-search input[type=text] {
+	border-radius: 4px 0 0 4px;
+}
+input[type="file"] {
+	height: auto;
+}
+
+/*--------------------------------------------------------------
+Messages
+--------------------------------------------------------------*/
+
+.friend-tab img {
+	border: 1px solid #ccc;
+	margin-right: 5px;
+}
+
+/*--------------------------------------------------------------
+Pagination, misc.
+--------------------------------------------------------------*/
+
+.pagination {
+	font-size: 11px;
+	line-height: 13px;
+	color: #666;
+}
+
+/*--------------------------------------------------------------
+Notifications
+--------------------------------------------------------------*/
+
+.notification-settings {
+	width: 95%;
+	margin-bottom: 20px;
+}
+.notification-settings th {
+	text-align: left;
+}
+.notification-settings .description {
+	width: 90%;
+}
+
+/*--------------------------------------------------------------
+Profiles
+--------------------------------------------------------------*/
+
+.controls p {
+	margin-bottom: 10px;
+}
+.controls {
+	padding-top: 5px;
+}
+.field-visibility-settings-notoggle {
+	font-size: 11px;
+}
+.current-visibility-level {
+	font-weight: bold;
+}
+.message-search {
+	display: table;
+	float: right;
+}
+#item-buttons .generic-button {
+	float: left;
+	margin-right: 5px;
+}
+#item-buttons {
+	clear: both;
+}
+
+/*--------------------------------------------------------------
+Member Lists, etc.
+--------------------------------------------------------------*/
+
+#member-list {
+	display: table;
+	clear: both;
+}
+#members-dir-search {
+	clear: both;
+}
+.item-list .item-title span.update {
+	display: block;
+	margin: 3px 0;
+	font-size: 11px;
+	padding: 3px 30px 3px 10px;
+}
+.item-list .activity-read-more {
+	margin-left: 10px;
+}
+#search-message-form {
+	float: right;
+}
+.action {
+	float: right;
+}
+
+/*--------------------------------------------------------------
+Avatars
+--------------------------------------------------------------*/
+
+.img-polaroid:hover {
+	background: #ccc;
+}
+
+/*--------------------------------------------------------------
+Groups
+--------------------------------------------------------------*/
+
+#item-header-content h2 {
+	line-height: inherit;
+}
+#item-header-content .hero-unit {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 30px;
+}
+#item-header-content .activity {
+	font-size: 12px;
+}
+#item-header {
+	margin-bottom: 40px;
+	clear: both;
+}
+#groups-directory-form {
+	clear: both;
+}
+#group-dir-search {
+	float: right;
+}
+#groups-directory-form input[type=submit] {
+	margin-top: 5px;	 
+}
+.item-meta, #item-meta {
+	font-size: 11px;
+}
+.item-list .item-meta,
+.item-list .item-title {
+	margin-left: 15px;
+}
+#groups-list .item-meta, 
+#groups-list .item-title {
+	margin-left: 0;
+} 
+#item-meta {
+	margin-top: 5px;
+	clear: both;
+}
+#item-meta p {
+	margin: 0;
+}
+#item-actions legend {
+	margin-bottom: 5px;
+	font-size: 14px;
+	line-height: 14px;
+	padding-bottom: 5px;
+}
+#item-header-wrapper, .group-member-wrapper {
+	margin-left: 15px;
+}
+.group-member-wrapper h5 {
+	margin: 5px 0;
+}
+.bp-widget { 
+	clear: both;
+}
+.page-header.bp-widget {
+	display: table;
+	width: 100%;
+}
+.submit {
+	margin-top: 20px;
+}
+
+/*--------------------------------------------------------------
+Activity / Streams
+--------------------------------------------------------------*/
+
+#whats-new-textarea textarea, .ac-textarea textarea, .activity-comments textarea {
+	width: 98%;
+}
+#whats-new-content {
+	margin-bottom: 15px;
+}
+#whats-new-submit {
+	margin-bottom: 15px;
+}
+#whats-new-post-in-box label, .last label, .dir-search label {
+	float: left;
+	line-height: 30px;
+	margin-right: 10px;
+}
+#whats-new-avatar {
+	margin-right: 10px;
+	margin-bottom: 5px;
+}
+.activity-content, .item-wrapper {
+	display: table;
+	width: 80%;
+	margin-left: 10px;
+}
+.activity-comments {
+	clear: both;
+	padding-top: 20px;
+}
+.item-list [class^="icon-"], .item-list [class*=" icon-"] {
+	vertical-align: text-bottom;
+}
+.item-list li {
+	margin-bottom: 15px;
+}
+.item-list li.activity-item {
+	clear: both;
+	display: table;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.activity-inner, .acomment-content, .item-desc, .action {
+	font-size: 11px;
+	line-height: 14px;
+}
+.ac-reply-avatar {
+	margin-right: 5px;
+}
+.ac-reply-content {
+	width: 90%;
+}
+.time-since {
+	font-size: 10px;
+}
+.activity-header img {
+	border: 1px solid #ccc;
+	background: #fff;
+	padding: 2px;
+	margin-right: 3px;
+}
+
+/*--------------------------------------------------------------
+Posts
+--------------------------------------------------------------*/
+
+.author-box {
+	margin: 0 15px 15px 0;
+	text-align: center;
+	font-size: 11px;
+	padding: 11px;
+}
+.author-box p {
+	margin: 0;
+}
+
+/*--------------------------------------------------------------
+Sidebar
+--------------------------------------------------------------*/
+
+#sidebar {
+	margin-top: 30px;
+}
+
+/*--------------------------------------------------------------
+Navbar
+--------------------------------------------------------------*/
+
+.navbar {
+	margin-bottom: 0;
+}
+.navbar .nav.user-logged-in-dropdown > li > a {
+	padding: 2px 0 0 0;
+}
+.nav.user-logged-in-dropdown .dropdown-toggle .caret {
+	margin-top: 15px;
+}
+
+/*--------------------------------------------------------------
+Search Box Overrides
+--------------------------------------------------------------*/
+
+#search-bar {
+	margin-top: 10px;
+}
+#search-bar label {
+	margin-right: 10px;
+	float: left;
+	line-height: 30px;
+}
+#search-bar .pull-left {
+	margin-right: 15px;
+}
+
+
+/*--------------------------------------------------------------
+Comments
+--------------------------------------------------------------*/
+.navigation,
+.paged-navigation,
+.comment-navigation {
+	overflow: hidden;
+	font-family: georgia, times, serif;
+	font-size: 14px;
+	font-style: italic;
+	margin: 5px 0 25px 0;
+	padding: 5px 0;
+}
+.comments {
+	float: right;
+}
+#trackbacks {
+	margin-top: 30px;
+}
+.commentlist .bypostauthor {
+}
+#comments {
+	margin-top: 30px;
+}
+#comments ol.commentlist {
+	border-bottom: 1px solid #e4e4e4;
+	margin: 0 0 30px 0;
+}
+#comments ol.commentlist ol {
+	list-style-type: decimal;
+	margin: 0 0 18px 2.5em;
+}
+#comments ol.commentlist ol ol {
+	list-style: lower-alpha;
+	margin-bottom: 0px;
+}
+#comments ol.commentlist ol ol ol {
+	list-style: lower-roman;
+}
+ol.commentlist li.comment {
+	border-top: 1px solid #e4e4e4;
+	clear: left;
+	list-style: none;
+	margin-bottom: 15px;
+}
+ol.commentlist ul.children li {
+	margin-bottom: 0;
+}
+ol.commentlist div.comment-avatar-box {
+	float: left;
+	margin: 15px 15px 0 0;
+}
+.commentlist ul.children div.comment-avatar-box {
+	float: left;
+	margin: 0 10px 0 0;
+}
+div.comment-avatar-box img {
+	border: 2px solid #eee;
+}
+div.comment-content {
+	overflow: hidden;
+}
+ul.children .comment-entry {
+	margin-bottom: 10px;
+}
+div.comment-meta {
+	color: #888;
+	font-size: 11px;
+	margin: 15px 0;
+	width: 100%;
+}
+div.comment-meta em {
+	font-style: normal;
+}
+#reply-title {
+	margin-top: 0;
+}
+#reply-title small {
+	float: right;
+	font-size: 11px;
+	font-weight: normal;
+}
+#reply-title small a {
+	margin-right: 0;
+}
+.commentlist ul.children {
+	background: #f5f5f5;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	margin: 15px 0 15px 70px;
+	padding: 0 10px;
+}
+.commentlist ul.children ul {
+	margin: 0 0 0 25px;
+	padding-right: 0;
+}
+.commentlist ul.children img.avatar {
+	border-style: none;
+	height: 25px;
+	margin: 0;
+	width: 25px;
+}
+.commentlist ul.children div.comment-meta {
+	font-size: 11px;
+	margin: 0 0 10px 0;
+}
+.commentlist ul.children li {
+	border-top: 2px solid #fffeff;
+	padding-top: 10px;
+}
+.commentlist ul.children li:first-child {
+	border-top: none;
+}
+.commentlist ul.children ul li:first-child {
+	border-top: 2px solid #fffeff;
+}
+#respond {
+	background-color: #fafafa;
+	border: 1px solid #e5e5e5;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	padding: 15px;
+}
+#respond .avb img {
+	float: inherit;
+}
+#respond .comment-avatar-box {
+	float: left;
+	margin: 0 15px 0 0;
+}
+#respond .form-submit {
+	margin-bottom: 0;
+}
+ol.commentlist #respond {
+	clear: left;
+	margin-left: 70px;
+	margin-bottom: 20px;
+}
+.commentlist ul.children #respond {
+	margin-bottom: 10px;
+	margin-left: 35px;
+	margin-right: 20px;
+}
+h3#reply .comments-header {
+	font-size: 14px;
+}
+#respond div.comment-content {
+	border-style: none;
+}
+#nav-below {
+	margin: 0 0;
+	padding: 0 0;
+}
+#nav-above {
+	margin: 0 0 15px;
+	padding: 0;
+}
+.comment-options {
+	margin: 10px 0 2px;
+}
+.comment-options .comment-reply-link,
+.comment-options .comment-edit-link {
+	font: normal 11px/20px Arial, Tahoma, Verdana, sans-serif;
+	margin-right: 5px;
+	padding: 4px 8px;
+}
+.commentlist ul.children div.comment-options {
+	margin-bottom: 10px;
+}
+.form-textarea textarea {
+	width: 95%;
+}
+
+
+/*--------------------------------------------------------------
+Footer
+--------------------------------------------------------------*/
+
+#footer {
+	margin-top: 30px;
+}
+
+/*--------------------------------------------------------------
+Misc
+--------------------------------------------------------------*/
+
+.clear { clear: both; }
