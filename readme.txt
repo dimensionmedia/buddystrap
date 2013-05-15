@@ -2,7 +2,7 @@
 Contributors: dimensionmedia (David Bisset)
 Tags: buddypress, twitter, bootstrap
 Requires at least: WordPress 3.3, BuddyPress 1.6
-Tested up to: WordPress 3.4.2, BuddyPress 1.6.1
+Tested up to: WordPress 3.6.0, BuddyPress 1.6.1
 Stable tag: 1.0-beta
  
 Minimalistic BuddyPress Theme Using Twitter Bootstrap
